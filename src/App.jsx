@@ -17,7 +17,7 @@ const getRandomColor = () => {
 
 const transition = "all 1s";
 
-function App() {
+const App = () => {
   const [quote, setQuote] = useState(getRandomQuote());
   const [randomColor, setRandomColor] = useState(getRandomColor());
 
